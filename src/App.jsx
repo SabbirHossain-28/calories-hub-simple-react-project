@@ -1,12 +1,11 @@
 import './App.css'
+import Nav from './Navbar/Nav'
 
 function App() {
 
   return (
     <>
-
-      <h1>Vite + React</h1>
-      
+      <Nav></Nav> 
     </>
   )
 }
