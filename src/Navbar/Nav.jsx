@@ -9,7 +9,7 @@ const Nav = () => {
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -24,7 +24,7 @@ const Nav = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-lg bg-base-100 rounded-box"
+              className="menu menu-sm dropdown-content  mt-3 z-[1] p-2 shadow-lg bg-base-100 rounded-box font-Lexend"
             >
               <li>
                 <a>Home</a>
@@ -40,12 +40,12 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-2xl lg:text-4xl font-extrabold font-lexend">
+          <a className="btn btn-ghost text-2xl lg:text-4xl font-extrabold font-Lexend p-0">
             Calories Hub
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-[#150B2BB3] text-xl font-medium font-lexend">
+          <ul className="menu menu-horizontal px-1 text-[#150B2BB3] text-xl font-medium font-Lexend">
             <li>
               <a>Home</a>
             </li>
@@ -62,7 +62,7 @@ const Nav = () => {
         </div>
         <div className="navbar-end">
           <div className="hidden lg:block">
-          <label className="input input-bordered flex items-center gap-1 rounded-full m-4 bg-[#150B2B0D]">
+          <label className="input input-bordered flex items-center gap-1 rounded-full m-4 bg-[#150B2B0D] font-Lexend]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -75,10 +75,10 @@ const Nav = () => {
                 clipRule="evenodd"
               />
             </svg>
-            <input type="text" className="grow font-lexend text-[#150B2BB3]" placeholder="Search" />
+            <input type="text" className="grow font-Lexend text-[#150B2BB3]" placeholder="Search" />
           </label>
           </div>
-          <div className="border-2 w-12 h-12 rounded-full flex justify-center items-center bg-[#0BE58A]">
+          <div className="border-2 w-9 lg:w-12 h-9 lg:h-12 rounded-full flex justify-center items-center bg-[#0BE58A]">
             <img src={conatactBtnImage} alt="" />
           </div>
         </div>
