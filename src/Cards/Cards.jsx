@@ -17,25 +17,25 @@ const Cards = ({ recipyCard }) => {
       <div className=" bg-base-100 shadow-2xl p-4 rounded-xl border-2">
         <div>
           <img
-            className=" w-full h-80 rounded-2xl mb-4"
+            className=" w-full h-64 lg:h-80 rounded-2xl lg:mb-4"
             src={recipe_image}
             alt="recipe-image"
           />
         </div>
 
         <div className="p-2">
-          <h2 className="card-title text-[#282828] text-xl font-semibold font-Lexend mb-4">
+          <h2 className="card-title text-[#282828] text-xl font-semibold font-Lexend lg:mb-4">
             {recipe_name}
           </h2>
-          <p className="text-[#878787]  font-FiraSans mb-4">
+          <p className=" w-72 lg:w-80 text-[#878787]  font-FiraSans mb-4">
             {short_description}
           </p>
           <hr />
-          <h4 className="text-[#282828] text-xl font-medium font-Lexend mt-4 mb-4">
+          <h4 className="text-[#282828] text-xl font-medium font-Lexend mt-4 mb-2 lg:mb-4">
             Ingredients: {ingredients.length}
           </h4>
-          <div className="h-52">
-          <ul className="text-[#878787]  font-Lexend mb-6">
+          <div className="h-44 ">
+          <ul className="text-[#878787]  font-Lexend mb-3 lg:mb-6">
             {ingredients.map((ingredient, idx) => (
               <li key={idx} className="list-inside list-disc">
                 {ingredient}
@@ -43,7 +43,8 @@ const Cards = ({ recipyCard }) => {
             ))}
           </ul>
           </div>
-          <div className="flex items-center gap-6 mb-6">
+          <hr />
+          <div className="flex items-center gap-6 mt-6 mb-6">
             <div className="flex gap-3">
               <img src={clockImage} alt="Clock-logo" />
               <p className="text-[#282828CC] font-FiraSans">

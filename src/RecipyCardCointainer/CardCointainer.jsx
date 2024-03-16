@@ -12,15 +12,15 @@ const CardCointainer = () => {
       .then((data) => setRecipyCard(data));
   }, []);
   return (
-    <div className="flex">
+    <div className=" w-11/12 mx-auto flex flex-col lg:flex-row gap-6">
       <div className="mt-12 w-2/3">
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid lg:grid-cols-2 gap-6">
         {recipyCards.map((recipyCard, idx) => (
           <Cards key={idx} recipyCard={recipyCard}></Cards>
         ))}
         </div>
       </div>
-      <div className="w-1/3 border-2">
+      <div className="w-1/3 mt-12  border-2">
         <Cart></Cart>
       </div>
     </div>
