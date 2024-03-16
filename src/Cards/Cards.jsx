@@ -2,8 +2,7 @@ import PropTypes from "prop-types";
 import clockImage from "../assets/images/time.png";
 import calorieImage from "../assets/images/fire.png";
 
-const Cards = ({ recipyCard }) => {
-  console.log(recipyCard);
+const Cards = ({ recipyCard ,handleAddToTable}) => {
   const {
     recipe_image,
     recipe_name,
@@ -35,13 +34,13 @@ const Cards = ({ recipyCard }) => {
             Ingredients: {ingredients.length}
           </h4>
           <div className="h-44 ">
-          <ul className="text-[#878787]  font-Lexend mb-3 lg:mb-6">
-            {ingredients.map((ingredient, idx) => (
-              <li key={idx} className="list-inside list-disc">
-                {ingredient}
-              </li>
-            ))}
-          </ul>
+            <ul className="text-[#878787]  font-Lexend mb-3 lg:mb-6">
+              {ingredients.map((ingredient, idx) => (
+                <li key={idx} className="list-inside list-disc">
+                  {ingredient}
+                </li>
+              ))}
+            </ul>
           </div>
           <hr />
           <div className="flex items-center gap-6 mt-6 mb-6">
@@ -59,7 +58,7 @@ const Cards = ({ recipyCard }) => {
             </div>
           </div>
           <div className="flex">
-            <button className="btn px-10 rounded-full bg-[#0BE58A]">
+            <button onClick={()=>handleAddToTable(recipyCard)} className="btn px-10 rounded-full bg-[#0BE58A]">
               Want to Cook
             </button>
           </div>
@@ -70,6 +69,7 @@ const Cards = ({ recipyCard }) => {
 };
 Cards.propTypes = {
   recipyCard: PropTypes.object.isRequired,
+  handleAddToTable:PropTypes.func,
 };
 
 export default Cards;
