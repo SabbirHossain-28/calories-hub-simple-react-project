@@ -1,6 +1,7 @@
 import './App.css'
 import Banner from './Banner/Banner'
 import Nav from './Navbar/Nav'
+import CardCointainer from './RecipyCardCointainer/CardCointainer'
 import RecipyTitle from './RecipyTitle/RecipyTitle'
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <>
       <Nav></Nav>
       <Banner></Banner>
-      <RecipyTitle></RecipyTitle> 
+      <RecipyTitle></RecipyTitle>
+      <CardCointainer></CardCointainer> 
     </>
   )
 }

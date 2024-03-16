@@ -5,7 +5,7 @@ const RecipyTitle = () => {
         <h2 className="text-[#150B2B] text-4xl font-semibold font-Lexend mb-6">
           Our Recipes
         </h2>
-        <p className="text-[#150B2B99] text-lg font-medium">
+        <p className="text-[#150B2B99] text-lg font-medium font-Lexend">
           Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus
           vulputate netus pharetra rhoncus. Eget urna volutpat curabitur
           elementum mauris aenean neque.
