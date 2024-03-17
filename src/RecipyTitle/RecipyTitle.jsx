@@ -6,9 +6,10 @@ const RecipyTitle = () => {
           Our Recipes
         </h2>
         <p className="text-[#150B2B99] text-lg font-medium font-Lexend">
-          Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus
-          vulputate netus pharetra rhoncus. Eget urna volutpat curabitur
-          elementum mauris aenean neque.
+          Embark on a gastronomic adventure with our handpicked selection of
+          recipes at Calories Hub.Let our recipes be your passport to a world of
+          flavor, where every bite tells a story of passion and creativity in
+          the kitchen.
         </p>
       </div>
     </div>

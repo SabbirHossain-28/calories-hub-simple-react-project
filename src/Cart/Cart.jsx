@@ -4,28 +4,25 @@ import { useState } from "react";
 const Cart = ({ tableData, setAddDataToTable }) => {
   // console.log(tableData);
   const [prepare, setPrepare] = useState([]);
-  const [totalTime,setTotalTime]=useState(0);
-  const [totalCalories,setTotalCalories]=useState(0);
-
+  const [totalTime, setTotalTime] = useState(0);
+  const [totalCalories, setTotalCalories] = useState(0);
 
   const handlePassOrderToPrepare = (id) => {
     const prepareForCook = tableData.filter(
-      itemId => itemId.recipe_id !== id
+      (itemId) => itemId.recipe_id !== id
     );
-    
+
     const selectedId = tableData.find((tData) => tData.recipe_id === id);
 
-    const newTotalTime=totalTime+selectedId.preparing_time;
+    const newTotalTime = totalTime + selectedId.preparing_time;
     setTotalTime(newTotalTime);
 
-    const newTotalCalories=totalCalories+selectedId.calories;
+    const newTotalCalories = totalCalories + selectedId.calories;
     setTotalCalories(newTotalCalories);
 
     setAddDataToTable(prepareForCook);
     setPrepare([...prepare, selectedId]);
   };
-  
-
 
   return (
     <div className="p-3 lg:p-6">
@@ -55,7 +52,10 @@ const Cart = ({ tableData, setAddDataToTable }) => {
             </thead>
             <tbody>
               {tableData.map((recipe, idx) => (
-                <tr key={idx} className="border-none bg-[#28282808] text-[#282828B3] text-base font-normal font-FiraSans">
+                <tr
+                  key={idx}
+                  className="border-none bg-[#28282808] text-[#282828B3] text-base font-normal font-FiraSans"
+                >
                   <th>{idx + 1}</th>
                   <td>{recipe.recipe_name}</td>
                   <td>{recipe.preparing_time}minutes</td>
@@ -74,16 +74,16 @@ const Cart = ({ tableData, setAddDataToTable }) => {
           </table>
         </div>
       </div>
-      <AddCooking 
-      prepare={prepare}
-      totalTime={totalTime}
-      totalCalories={totalCalories}
+      <AddCooking
+        prepare={prepare}
+        totalTime={totalTime}
+        totalCalories={totalCalories}
       ></AddCooking>
     </div>
   );
 };
 Cart.propTypes = {
   tableData: PropTypes.array,
-  setAddDataToTable:PropTypes.func,
+  setAddDataToTable: PropTypes.func,
 };
 export default Cart;

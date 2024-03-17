@@ -1,93 +1,98 @@
 [
-    {
-      "recipe_id": 1,
-      "recipe_name": "Chicken Stir-Fry",
-      "recipe_image": "https://i.ibb.co/c1xRS2n/louis-hansel-Qpdq5g-Di-Ofo-unsplash.jpg",
-      "short_description": "A delicious and easy chicken stir-fry packed with flavor.",
-      "ingredients": ["550g chicken breast, sliced",
-        "120ml soy sauce",
-        "200g basil leaves",
-        "400g mushrooms, sliced",
-        "1 tbsp red wine vinegar",
-        "1/2 tsp baking soda"
-      ],
-      "preparing_time": 30,
-      "calories": 320
-    },
-    {
-      "recipe_id": 2,
-      "recipe_name": "Vegetable Curry",
-      "recipe_image": "https://i.ibb.co/DW6256J/mariam-sodawater-cqo1q-QOLTm0-unsplash.jpg",
-      "short_description": "A hearty and flavorful vegetable curry for a comforting meal.",
-      "ingredients": ["2 cups mixed vegetables (carrots, potatoes, peas)",
-        "1 onion, chopped",
-        "400ml coconut milk",
-        "2 tbsp curry powder",
-        "Salt and pepper to taste",
-        "Salt and pepper to taste"
-      ],
-      "preparing_time": 45,
-      "calories":250
-    },
-    {
-      "recipe_id": 3,
-      "recipe_name": "Spaghetti Bolognese",
-      "recipe_image": "https://i.ibb.co/xXLbh1w/danijela-prijovic-qits91-IZv1o-unsplash.jpg",
-      "short_description": "Classic spaghetti with a rich and savory bolognese sauce.",
-      "ingredients": ["400g spaghetti",
-        "500g ground beef",
-        "1 onion, chopped",
-        "2 cloves garlic, minced",
-        "400g canned tomatoes",
-        "1 tbsp olive oil"
-      ],
-      "preparing_time": 40,
-      "calories": 400
-    },
-    {
-      "recipe_id": 4,
-      "recipe_name": "Greek Salad",
-      "recipe_image": "https://i.ibb.co/vm89rgD/dmitry-dreyer-K4-ERT-IYazw-unsplash.jpg",
-      "short_description": "A refreshing and healthy salad with Greek flavors.",
-      "ingredients": ["2 cucumbers, diced",
-        "2 tomatoes, diced",
-        "1 red onion, sliced",
-        "200g feta cheese, crumbled",
-        "100g olives",
-        "2 tbsp olive oil"
-      ],
-      "preparing_time": 15,
-      "calories": 180
-    },
-    {
-      "recipe_id": 5,
-      "recipe_name": "Banana Bread",
-      "recipe_image": "https://i.ibb.co/qdBcpMK/evangelina-silina-Dcrpmris9-Yc-unsplash.jpg",
-      "short_description": "Moist and delicious banana bread perfect for breakfast or dessert.",
-      "ingredients": ["3 ripe bananas, mashed",
-        "200g all-purpose flour",
-        "100g sugar",
-        "1 egg",
-        "50g butter, melted",
-        "1 tsp baking powder"
-      ],
-      "preparing_time": 60,
-      "calories": 220
-    },
-    {
-      "recipe_id": 6,
-      "recipe_name": "Caprese Salad",
-      "recipe_image": "https://i.ibb.co/TKYB4MG/sara-dubler-T-d-Y6-Azz-VXU-unsplash.jpg",
-      "short_description": "A simple and elegant salad featuring fresh tomatoes, mozzarella, and basil.",
-      "ingredients": ["2 tomatoes, sliced",
-        "200g fresh mozzarella cheese, sliced",
-        "1/4 cup fresh basil leaves",
-        "2 tbsp balsamic vinegar",
-        "2 tbsp olive oil",
-        "Salt and pepper to taste"
-      ],
-      "preparing_time": 10,
-      "calories": 150
-    }
-  ]
-  
+  {
+    "recipe_id": 1,
+    "recipe_name": "Chicken Stir-Fry",
+    "recipe_image": "https://i.ibb.co/c1xRS2n/louis-hansel-Qpdq5g-Di-Ofo-unsplash.jpg",
+    "short_description": "A delicious and easy chicken stir-fry packed with flavor.",
+    "ingredients": [
+      "550g chicken breast, sliced",
+      "120ml soy sauce",
+      "200g basil leaves",
+      "400g mushrooms, sliced",
+      "1 tbsp red wine vinegar",
+      "1/2 tsp baking soda"
+    ],
+    "preparing_time": 30,
+    "calories": 320
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Vegetable Curry",
+    "recipe_image": "https://i.ibb.co/DW6256J/mariam-sodawater-cqo1q-QOLTm0-unsplash.jpg",
+    "short_description": "A hearty and flavorful vegetable curry for a comforting meal.",
+    "ingredients": [
+      "2 cups mixed vegetables (carrots, potatoes, peas)",
+      "1 onion, chopped",
+      "400ml coconut milk",
+      "2 tbsp curry powder",
+      "Salt and pepper to taste",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 45,
+    "calories": 250
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Spaghetti Bolognese",
+    "recipe_image": "https://i.ibb.co/xXLbh1w/danijela-prijovic-qits91-IZv1o-unsplash.jpg",
+    "short_description": "Classic spaghetti with a rich and savory bolognese sauce.",
+    "ingredients": [
+      "400g spaghetti",
+      "500g ground beef",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "400g canned tomatoes",
+      "1 tbsp olive oil"
+    ],
+    "preparing_time": 40,
+    "calories": 400
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Greek Salad",
+    "recipe_image": "https://i.ibb.co/vm89rgD/dmitry-dreyer-K4-ERT-IYazw-unsplash.jpg",
+    "short_description": "A refreshing and healthy salad with Greek flavors.",
+    "ingredients": [
+      "2 cucumbers, diced",
+      "2 tomatoes, diced",
+      "1 red onion, sliced",
+      "200g feta cheese, crumbled",
+      "100g olives",
+      "2 tbsp olive oil"
+    ],
+    "preparing_time": 15,
+    "calories": 180
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Banana Bread",
+    "recipe_image": "https://i.ibb.co/qdBcpMK/evangelina-silina-Dcrpmris9-Yc-unsplash.jpg",
+    "short_description": "Moist and delicious banana bread perfect for breakfast or dessert.",
+    "ingredients": [
+      "3 ripe bananas, mashed",
+      "200g all-purpose flour",
+      "100g sugar",
+      "1 egg",
+      "50g butter, melted",
+      "1 tsp baking powder"
+    ],
+    "preparing_time": 60,
+    "calories": 220
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Caprese Salad",
+    "recipe_image": "https://i.ibb.co/TKYB4MG/sara-dubler-T-d-Y6-Azz-VXU-unsplash.jpg",
+    "short_description": "A simple and elegant salad featuring fresh tomatoes, mozzarella, and basil.",
+    "ingredients": [
+      "2 tomatoes, sliced",
+      "200g fresh mozzarella cheese, sliced",
+      "1/4 cup fresh basil leaves",
+      "2 tbsp balsamic vinegar",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 10,
+    "calories": 150
+  }
+]
